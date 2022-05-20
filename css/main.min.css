@@ -6,7 +6,6 @@
     --color3: #6D0B0A;
     --color4: #B16201;
     --color5: #EA8000;
-    --color6: #EA9F44;
 }
 
 * {
@@ -445,7 +444,7 @@ body {
 .card-conteudo.d4 {
     top: 400px;
     left: 10px;
-    background-color: var(--color6)
+    background-color: var(--color1)
 }
 
 .card-conteudo.d4 p {
@@ -656,71 +655,71 @@ span.square.s39 {
 }
 
 span.square.s40 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 300px
 }
 
 span.square.s41 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 400px
 }
 
 span.square.s42 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 480px
 }
 
 span.square.s43 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 555px
 }
 
 span.square.s44 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 620px
 }
 
 span.square.s45 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 690px
 }
 
 span.square.s46 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 750px
 }
 
 span.square.s47 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 810px
 }
 
 span.square.s48 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 870px
 }
 
 span.square.s49 {
-    border: 15px solid var(--color6);
-    background-color: var(--color6);
+    border: 15px solid var(--color1);
+    background-color: var(--color1);
     top: 400px;
     left: 950px
 }
