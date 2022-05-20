@@ -30,10 +30,6 @@ body {
     font-weight: bold
 }
 
-#checkMap {
-    position: relative
-}
-
 #checkMap .modal-dialog {
     width: 85vw !important;
     height: auto
