@@ -1,6 +1,6 @@
 @import"https://fonts.googleapis.com/css?family=Open+Sans&display=swap";
 
-:root{
+:root {
     --color1: #EA9F44;
     --color2: #8A2120;
     --color3: #6D0B0A;
@@ -14,12 +14,16 @@
     font-size: 16px
 }
 
+body {
+    background-color: #eaeaea;
+}
+
 .mainHeader {
     max-width: 100%;
-    height: 200px;
     background: var(--color1) 0% 0% no-repeat padding-box;
     box-shadow: 0px 6px 10px #00000029;
-    opacity: 1
+    opacity: 1;
+    padding-bottom: 1em;
 }
 
 .mainHeader h3 {
@@ -38,13 +42,14 @@
 .mainPanel {
     width: 100% !important;
     z-index: -10;
-    top: 0;
-    position: absolute;
-    background-color: #eaeaea
 }
 
 .panel-title {
-    margin-top: 10em;
+    margin-top: 2em;
+    color: #707070
+}
+
+.obs {
     color: #707070
 }
 
@@ -129,8 +134,6 @@
 }
 
 .footer {
-    margin: 2em 5em;
-    max-width: 80%;
     color: #707070;
     display: flex;
     flex-direction: column
@@ -921,6 +924,8 @@ span.square.s49 {
     }
 }
 
+
+
 @media screen and (max-width: 1920px) {
     .titulos {
         overflow-y: auto
@@ -932,3 +937,25 @@ span.square.s49 {
 }
 
 /*# sourceMappingURL=main.min.css.map */
+.footer div {
+    background-color: var(--color1);
+}
+
+.footer img {
+    width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .titulos {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .title-card:not(:first-child) {
+        margin-left: 0.1em !important;
+    }
+
+    .footer img {
+        width: 75%;
+    }
+}
