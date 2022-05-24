@@ -23,7 +23,7 @@ body {
 }
 
 #checkMap .modal-dialog {
-    width: 85vw !important;
+    --bs-modal-width: 85vw !important;
     height: auto
 }
 
