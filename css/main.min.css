@@ -192,7 +192,8 @@ body {
 .titulo2 h2 {
     font-size: 20px;
     margin: 0;
-    font-weight: bold
+    font-weight: bold;
+    text-align: center;
 }
 
 .empty {
@@ -356,11 +357,11 @@ body {
     display: none
 }
 
-.titulo1 {
+.titulo2 {
     top: 410px;
 }
 
-.titulo2 {
+.titulo1 {
     left: 710px;
 }
 
