@@ -181,9 +181,8 @@ body {
     position: absolute;
     padding: .7em;
     background-color: var(--color2);
-    border-radius: 10px;
+    border-radius: 5px;
     color: #fff;
-    box-shadow: 0 .5em .5em rgba(0, 0, 0, .3)
 }
 
 .titulo1 h2,
@@ -235,11 +234,13 @@ body {
     overflow-y: auto;
     position: -webkit-sticky;
     position: sticky;
-    top: 50px;
+    top: 0;
     padding: 1em 1em
 }
 
-.empty {}
+.titulos span {
+    font-size: 14px;
+}
 
 .title-card:not(:first-child) {
     margin-left: 0.1em !important;
@@ -297,7 +298,6 @@ body {
 .title-card[draggable=true] span {
     margin: 0 auto;
     color: #fff;
-    font-size: .8em
 }
 
 .title-card[draggable=true]:hover {
@@ -337,11 +337,8 @@ body {
 
 #removeSpan .title-card span {
     opacity: 1;
-    font-size: .7em;
     color: var(--color3)
 }
-
-
 
 .cont {
     background: #eaeaea !important
@@ -432,7 +429,7 @@ body {
 
 .b3,
 .c2 {
-    left: 600px;
+    left: 595px;
 }
 
 .b4 {
@@ -444,7 +441,7 @@ body {
 }
 
 .b7 {
-    left: 1325px;
+    left: 1320px;
 }
 
 .c1,
@@ -492,9 +489,12 @@ body {
 
 .d1 p,
 .d2 p,
+.d2 span,
 .d3 p,
+.d3 span,
 .d4 p {
     color: white !important;
+    text-transform: uppercase;
 }
 
 .d1,
@@ -679,8 +679,6 @@ body {
     }
 }
 
-
-
 @media screen and (max-width: 1920px) {
     .titulos {
         overflow-y: auto
@@ -691,7 +689,6 @@ body {
     }
 }
 
-/*# sourceMappingURL=main.min.css.map */
 .footer div {
     background-color: var(--color1);
 }
